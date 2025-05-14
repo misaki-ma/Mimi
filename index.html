@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mimi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><a href="#" class="logo">Mimi</a></h1>
+      <div class="toggle_btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="nav-before">
+        <ul class="nav-left">
+          <li><a href="#">BOY&nbsp;or&nbsp;GIRL</a></li>
+          <li><a href="#">SIZE</a></li>
+          <li><a href="#">ITEM</a></li>
+        </ul>
+        <ul class="nav-right">
+          <li>
+            <a href="#"><img src="img/people.png" alt="人のアイコン" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/cart.png" alt="カートのアイコン" /></a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="nav-after">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#news">NEWS</a></li>
+          <li><a href="#sale">SALE</a></li>
+          <li><a href="#new">NEW</a></li>
+          <li><a href="#ranking">RANKING</a></li>
+          <li><a href="#gift">GIFT</a></li>
+          <li><a href="#category">CATEGORY</a></li>
+          <li><a href="#information">INFORMATION</a></li>
+        </ul>
+      </nav>
+
+      <div class="curtain"></div>
+
+    </header>
+
+    <main>
+      <div class="mainvisual" id="home">
+        <img src="img/top.png" alt="メインビジュアルの親子写真" />
+        <p>
+          毎日着たくなる服<br />毎日着せたくなる服<br />親も子どもも笑顔になれる服を。
+        </p>
+      </div>
+
+      <div class="news" id="news">
+        <ul class="slide-items">
+          <li>
+            <a href="#"
+              ><img src="img/NEW ARRIVAL.png" alt="新商品ページリンク画像"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="img/WINTER SALE.png" alt="セール商品ページリンク画像"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="img/冬のお出かけ.png"
+                alt="冬コーデ特集ページリンク画像"
+            /></a>
+          </li>
+        </ul>
+      </div>
+
+      <section class="sale" id="sale">
+        <h2 >SALE</h2>
+        <div class="items">
+          <div class="item">
+            <a class="item-img" href="#">
+              <img src="img/1-長袖白ニット.png" alt="長袖の白ニット"/>
+            </a>
+            <a class="item-text" href="#">
+              <p>長袖ニット<br />￥2,700 <span>→</span><span>￥1,500</span></p>
+            </a>
+          </div>
+          <div class="item">
+            <a class="item-img" href="#"
+              ><img src="img/2-トレーナー.png" alt="星柄のトレーナー"
+            /></a>
+            <a class="item-text" href="#"
+              ><p>
+                トレーナー<br />￥4,200 <span>→</span><span>￥2,100</span>
+              </p></a
+            >
+          </div>
+          <div class="item">
+            <a class="item-img" href="#"
+              ><img src="img/3-長ズボン.png" alt="10分丈のストライプのズボン"
+            /></a>
+            <a class="item-text" href="#"
+              ><p>
+                10分丈ズボン<br />￥2,500 <span>→</span><span>￥1,800</span>
+              </p></a
+            >
+          </div>
+          <div class="item">
+            <a class="item-img" href="#"
+              ><img src="img/4-ニット帽.png" alt="ピンクのニット帽"
+            /></a>
+            <a class="item-text" href="#"
+              ><p>
+                ニット帽<br />￥3,500 <span>→</span><span>￥2,000</span>
+              </p></a
+            >
+          </div>
+        </div>
+        <a class="more" href="#">MORE</a>
+      </section>
+
+      <section class="new" id="new">
+        <h2>NEW</h2>
+        <div class="items">
+          <div class="item">
+            <a class="item-img" href="#"
+              ><img src="img/new-1-長袖シャツ.png" alt="赤の長袖シャツ"
+            /></a>
+            <a class="item-text" href="#"
+              ><p>長袖シャツ<br />￥2,500</p></a
+            >
+          </div>
+          <div class="item">
+            <a class="item-img" href="item.html"
+              ><img src="img/new-2-カーディガン.png" alt="水色のカーディガン"
+            /></a>
+            <a class="item-text" href="#"
+              ><p>カーディガン<br />￥3,200</p></a
+            >
+          </div>
+          <div class="item">
+            <a class="item-img" href="#"
+              ><img src="img/new-3-長ズボン.png" alt="デニムの10分丈ズボン"
+            /></a>
+            <a class="item-text" href="#"
+              ><p>10分丈ズボン<br />￥2,200</p></a
+            >
+          </div>
+          <div class="item">
+            <a class="item-img" href="#"
+              ><img src="img/new-4-ブーツ.png" alt="茶色の冬用ブーツ"
+            /></a>
+            <a class="item-text" href="#"
+              ><p>ブーツ<br />￥3,500</p></a
+            >
+          </div>
+        </div>
+        <a class="more" href="#">MORE</a>
+      </section>
+
+      <section class="ranking" id="ranking">
+        <h2>RANKING</h2>
+        <div class="items">
+          <div class="item">
+            <a class="item-img" href="#"
+              ><img src="img/rank-1-長ズボン.png" alt="チェックの10分丈ズボン"
+            /></a>
+            <a class="item-text" href="#"
+              ><p>10分丈ズボン<br />￥2,200</p></a
+            >
+          </div>
+          <div class="item">
+            <a class="item-img" href="#"
+              ><img src="img/rank-2-カーディガン.png" alt="白のカーディガン"
+            /></a>
+            <a class="item-text" href="#"
+              ><p>カーディガン<br />￥3,200</p></a
+            >
+          </div>
+          <div class="item">
+            <a class="item-img" href="#"
+              ><img src="img/rank-3-トレーナー.png" alt="白のトレーナー"
+            /></a>
+            <a class="item-text" href="#"
+              ><p>トレーナー<br />￥2,700</p></a
+            >
+          </div>
+          <div class="item">
+            <a class="item-img" href="#"
+              ><img src="img/rank-4-スカート.png" alt="黒のスカート"
+            /></a>
+            <a class="item-text" href="#"
+              ><p>スカート<br />￥2,000</p></a
+            >
+          </div>
+        </div>
+        <a class="more" href="#">MORE</a>
+      </section>
+
+      <section class="gift" id="gift">
+        <div class="gift-wrapper">
+          <div class="gift-img">
+            <img src="img/gift.png" alt="モノクロの赤ちゃんの足の写真" />
+          </div>
+          <div class="gift-text">
+            <h3>GIFT</h3>
+            <p>出産祝いにベビー服やグッズを<br />プレゼントしませんか？</p>
+            <p>選んだ服をギフトボックスに入れて<br />ラッピングいたします！</p>
+            <a class="gift-more" href="#"><p>MORE</p></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="code">
+        <img
+          class="code-insta"
+          src="img/insta-icon.png"
+          alt="インスタグラムのアイコン"
+        />
+        <div class="code-text">
+          <p><span>↓</span>Instagramでコーデをチェック！<span>↓</span></p>
+          <div class="code-tag">
+            <p>＃mimi</p>
+            <p>＃ミミの子供服</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="category" id="category">
+        <h2>CATEGORY</h2>
+        <ul class="category-list">
+          <li><a href="#new">NEW</a></li>
+          <li><a href="#sale">SALE</a></li>
+          <li><a href="#">BABY</a></li>
+          <li><a href="#">GIRL</a></li>
+          <li><a href="#">BOY</a></li>
+          <li><a href="#">OUTER</a></li>
+          <li><a href="#">TOPS</a></li>
+          <li><a href="#">PANTS</a></li>
+          <li><a href="#">GOODS</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="information" id="information">
+        <h3>INFORMATION</h3>
+        <p class="info-faq">よくあるご質問</p>
+        <div class="question">
+          <div class="question-box">
+            <a href="#"><p>支払い</p></a>
+          </div>
+          <div class="question-box">
+            <a href="#"><p>配送</p></a>
+          </div>
+          <div class="question-box">
+            <a href="#"><p>返品、交換</p></a>
+          </div>
+          <div class="question-box">
+            <a href="#"><p>キャンセル</p></a>
+          </div>
+        </div>
+        <a class="info-faq2" href="#"><p>会社情報</p></a>
+        <a class="info-faq2" href="#"><p>お問い合わせ</p></a>
+      </div>
+
+      <div class="sns">
+        <h3>SNS</h3>
+        <div class="sns-icon">
+          <a href="https://www.instagram.com/" target="_blank"><img src="img/instaicon.png" alt="インスタグラムのアイコン"></a>
+          <a href="https://www.line.me/ja/" target="_blank"><img src="img/lineicon.png" alt="LINEのアイコン"></a>
+        </div>
+        <div class="sns-text">
+        <p>セールや新商品、コーデについて発信中</p>
+        <img src="img/voiceicon.png" alt="音声のアイコン">
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
